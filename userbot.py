@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 # 2. Click on "API Development tools"
 # 3. Create a new application and fill in the required fields
 # 4. Copy the "api_id" and "api_hash" below
-API_ID = 23440370  # Replace with your API ID (numbers only, no quotes)
-API_HASH = '2664b9ce2d22499e4228a27e9c7ddd11'  # Replace with your API HASH (include quotes)
+API_ID = int(input("api id"))  # Replace with your API ID (numbers only, no quotes)
+API_HASH = input("api hash") # Replace with your API HASH (include quotes)
 
 # Print Telethon version for debugging
 print(f"Using Telethon version: {version.__version__}")
